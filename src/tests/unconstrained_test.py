@@ -26,3 +26,13 @@ def test_newtons_method_axis_parallel_hyper_ellipsoid_function_3d():
 
 def test_newtons_method_rotated_hyper_ellipsoid_function_4d():
     wrapper(newtons_method, rotated_hyper_ellipsoid_function_4d)
+
+
+def test_gradient_descent_sphere_function_2d():
+    wrapper(gradient_descent, sphere_function_2d)
+
+def test_gradient_descent_axis_parallel_hyper_ellipsoid_function_3d():
+    wrapper(gradient_descent, axis_parallel_hyper_ellipsoid_function_3d)
+
+def test_gradient_descent_rotated_hyper_ellipsoid_function_4d():
+    wrapper(gradient_descent, rotated_hyper_ellipsoid_function_4d)
